@@ -11,7 +11,7 @@ ENV VERSION "v$VERSION_NORM"
 ENV FOLDER "swagger-ui-$VERSION_NORM"
 
 ENV ROOT_PATH "/apidocs"
-ENV PORT 80
+ENV PORT 8080
 
 
 WORKDIR /app
@@ -23,7 +23,7 @@ COPY nginx.conf /etc/nginx
 ADD run.sh run.sh
 
 # webserver port
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["sh", "run.sh"]
 

@@ -21,7 +21,6 @@ COPY nginx.conf /etc/nginx
 ADD run.sh run.sh
 
 # webserver port
-EXPOSE 8080
+EXPOSE 8094
 
 CMD ["sh", "run.sh"]
-

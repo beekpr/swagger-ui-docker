@@ -1,7 +1,7 @@
 FROM nginx:1-alpine
 MAINTAINER Beekeeper "contact@beekeeper.io"
 
-ENV VERSION_NORM "3.18.3"
+ENV VERSION_NORM "4.19.0"
 
 ENV API_URL "http://petstore.swagger.io/v2/swagger.json"
 ENV API_KEY "**None**"

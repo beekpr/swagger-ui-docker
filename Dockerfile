@@ -3,7 +3,7 @@ MAINTAINER Beekeeper "contact@beekeeper.io"
 
 ENV VERSION_NORM "4.19.0"
 
-ENV API_URL "http://petstore.swagger.io/v2/swagger.json"
+ENV API_URL "https://api.beekeeper.io/api/2/swagger.json"
 ENV API_KEY "**None**"
 ENV SWAGGER_JSON "/app/swagger.json"
 

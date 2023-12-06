@@ -4,7 +4,7 @@ This is a repo containing docker image running Swagger UI. It is mounted in our 
 
 # How it works
 
-The `Dockerfile` installs the selected version of **swagger-ui* and copies all the relevant files to the target container.
+The `Dockerfile` installs the selected version of **swagger-ui** and copies all the relevant files to the target container.
 
 The `nginx.conf` contains configuration for the `/apidocs` path
 
